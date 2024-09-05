@@ -1,0 +1,22 @@
+.card-custom {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 208px; /* تنظیم ارتفاع یکسان برای همه کارت‌ها */
+  }
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .card-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .btn {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+  

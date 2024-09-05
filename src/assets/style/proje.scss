@@ -1,0 +1,29 @@
+.modal.show {
+    display: block;
+  }
+  .modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+  }
+  #del {
+    background-color: #c8a4ae;
+    color: white;
+  }
+  #edit {
+    background-color: #b59bc5;
+    color: white;
+  }
+  #start {
+    background-color: #5c3882;
+    color: white;
+  }
+  #complete {
+    background-color: #9f688d; /* یا رنگ دلخواه دیگر */
+    color: white;
+  }
+  #pnumber {
+    color: white;
+  }
+  #card-h {
+    height: 205px;
+  }
+  

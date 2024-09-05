@@ -1,0 +1,111 @@
+.bodys {
+  .card {
+    height: 100%;
+  }
+  .card1 {
+    background-color: #5c3882;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+  #bts {
+    justify-content: center;
+    color: #ddd;
+    background: #9174b17d;
+    border-radius: 20px;
+  }
+
+
+  #bts2 {
+    justify-content: center;
+    color: #ddd;
+    background: #1fddfe4a;
+    border-radius: 20px;
+  }
+
+  .card3 {
+    background-color: #5c3882;
+  }
+
+  #cards {
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  #sqr {
+    background-color: #fe7da4;
+    width: 40px;
+    height: 40px;
+    border-radius: 29px;
+    justify-content: center;
+    display: flex;
+  }
+
+  #sqr1 {
+    background-color: #1fddfe;
+    width: 40px;
+    height: 40px;
+    border-radius: 29px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .card6 {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .form-control {
+      margin-bottom: 20px;
+    }
+
+    .filter-options {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #ffe0e6;
+      color: #e56b83;
+    }
+
+    td {
+      background-color: #fff;
+      color: #babfc5
+    }
+    
+    #image-table {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  }
+
+
+}
